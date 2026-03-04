@@ -1,7 +1,7 @@
 <?php
 // On définit des constantes en fonction du projet (valeurs prises dans docker-compose.yaml)
 const DBHOST = 'database'; // Serveur de base de données (nom du service Docker)
-const DBNAME = 'exemplepdo'; // Nom de la base de données
+const DBNAME = 'voyage_MVC'; // Nom de la base de données
 const DBUSER = 'app'; // Nom d'utilisateur mysql
 const DBPASS = 'azerty'; // Mot de passe de l'utilisateur app
 
