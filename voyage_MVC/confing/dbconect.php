@@ -17,7 +17,7 @@ try{
     $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
     // On force le jeu de caractères à UTF8
-    $db->setAttribute(PDO\Mysql::ATTR_INIT_COMMAND, 'SET NAMES utf8');
+    $db->setAttribute(PDO::MYSQL_ATTR_INIT_COMMAND, 'SET NAMES utf8');
 
     // On définit le mode de gestion des erreurs
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
